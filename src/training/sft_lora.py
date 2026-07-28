@@ -65,7 +65,7 @@ MODEL_REGISTRY = {
     "qwen3.5-27b": "Qwen/Qwen3.5-27B",
 }
 
-LOCAL_MODEL_DIR = "/mnt/realccvl15/ychen646/llms"
+LOCAL_MODEL_DIR = ""
 
 
 def resolve_model_path(model_name: str) -> str:
