@@ -1,0 +1,15 @@
+# Training environment (used by R0 / R1 stages and merge_lora.py).
+# Tested with Python 3.10.
+torch>=2.4
+transformers==5.4.0
+peft>=0.12
+datasets>=2.20
+bitsandbytes>=0.43
+safetensors>=0.4.5
+accelerate>=0.34
+pyyaml>=6.0
+numpy>=1.26
+
+# Inference environment (used by the one-shot online-PPA neggen stage only).
+# Install in a separate venv if you prefer to keep vllm decoupled from training.
+vllm>=0.6.0
